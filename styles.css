@@ -1,11 +1,17 @@
-body {background-color: #43281C;
-    font-family: Optima, sans-serif;}
-h1::first-letter {font-size:350%;}
+
+.container {
+    background: white;
+    width: 900px; 
+    margin: 0 auto;
+}
+body {background: url(desktop/images/moroccan-flower.png);
+      font-family: Optima, sans-serif}
+h1::first-letter {font-size:320%;}
 h1 {font-size: 300%;
-    color: #C06E52;
+    color: #FF5D73;
 text-align: center;
 }
-h2 { color: #FBF2C0;
+h2 { color: #FF5D73;
     font-size: 160%;
     text-align: center;
     font-style: italic;}
@@ -13,30 +19,29 @@ h2 { color: #FBF2C0;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 30%;  
+        max-width: 50%;  
         height: auto;}  
-h3:before {
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            background: #C06E52;
-          }
-h3::after {
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            background: #C06E52;
-          }
-h3 { color: #FBF2C0;
-    font-size: 160%;
-    text-align: center;
-    font-style: italic;}
-li    {color: #F96F5D;
+h3      {margin: 1em 0 0.5em 0;
+        text-align: match-parent;
+        font-weight: 600;
+        font-family: Optima, sans-serif;
+        position: relative;  
+        font-size: 36px;
+        line-height: 40px;
+        padding: 15px 15px 15px 15%;
+        color: #FF5D73;
+        box-shadow: 
+            inset 0 0 0 1px #e49ba5, 
+            inset 0 0 0 2px #e49ba5,
+            inset -75px 0 30px #e49ba5;
+        border-radius: 0 10px 0 10px;
+        }
+li    {color: #FF5D73;
 font-size: 140%;
-margin-top:10px;}
-a {color: #F96F5D;
+margin-top:10px;
+margin-left: 200px;
+font: Optima, sans-serif}
+a {color: #FF5D73;
 font-size: 120%;}
 a:visited {color: #2E294E;
 font-size: 120%;}
