@@ -1,11 +1,16 @@
-
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url(/Users/sherron/Desktop/images/moroccan-flower.png);
+      font-family: Optima, sans-serif
+}
 .container {
     background: white;
-    width: 900px; 
+    width: 600px;
     margin: 0 auto;
 }
-body {background: url(desktop/images/moroccan-flower.png);
-      font-family: Optima, sans-serif}
 h1::first-letter {font-size:320%;}
 h1 {font-size: 300%;
     color: #FF5D73;
@@ -21,7 +26,7 @@ h2 { color: #FF5D73;
         margin-right: auto;
         max-width: 50%;  
         height: auto;}  
-h3      {margin: 1em 0 0.5em 0;
+    h3  {margin: 1em 0 0.5em 0;
         text-align: match-parent;
         font-weight: 600;
         font-family: Optima, sans-serif;
